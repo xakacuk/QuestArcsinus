@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C2230895BF434FF58A8350 /* Pods_QuestArcsinus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194CCAA54591533EF623D2FB /* Pods_QuestArcsinus.framework */; };
+		6636B72F2394D6100091CE6D /* Extension+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6636B72E2394D6100091CE6D /* Extension+Realm.swift */; };
+		6696C522238CD39B00666607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C521238CD39B00666607 /* AppDelegate.swift */; };
+		6696C524238CD39B00666607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C523238CD39B00666607 /* SceneDelegate.swift */; };
+		6696C526238CD39B00666607 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C525238CD39B00666607 /* PersonViewController.swift */; };
+		6696C529238CD39B00666607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6696C527238CD39B00666607 /* Main.storyboard */; };
+		6696C52B238CD3A000666607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6696C52A238CD3A000666607 /* Assets.xcassets */; };
+		6696C52E238CD3A000666607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6696C52C238CD3A000666607 /* LaunchScreen.storyboard */; };
+		6696C537238E47A200666607 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C536238E47A200666607 /* HTTPManager.swift */; };
+		6696C53A238E498700666607 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C539238E498700666607 /* Person.swift */; };
+		6696C53E238E5FD300666607 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C53D238E5FD300666607 /* PersonViewModel.swift */; };
+		6696C540238E629900666607 /* ResponseSearchPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C53F238E629900666607 /* ResponseSearchPeople.swift */; };
+		6696C543238E65C300666607 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C542238E65C300666607 /* Extension+UIViewController.swift */; };
+		6696C545238E670000666607 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6696C544238E670000666607 /* Default-568h@2x.png */; };
+		6696C548238E688900666607 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C547238E688900666607 /* PersonTableViewCell.swift */; };
+		66F758BF238E75F900F74190 /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F758BE238E75F900F74190 /* DetailPersonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		194CCAA54591533EF623D2FB /* Pods_QuestArcsinus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestArcsinus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292C5D4DAF971C2B39DD7F9C /* Pods-QuestArcsinus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestArcsinus.release.xcconfig"; path = "Target Support Files/Pods-QuestArcsinus/Pods-QuestArcsinus.release.xcconfig"; sourceTree = "<group>"; };
+		6636B72E2394D6100091CE6D /* Extension+Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Realm.swift"; sourceTree = "<group>"; };
+		6696C51E238CD39B00666607 /* QuestArcsinus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestArcsinus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696C521238CD39B00666607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6696C523238CD39B00666607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6696C525238CD39B00666607 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		6696C528238CD39B00666607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6696C52A238CD3A000666607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6696C52D238CD3A000666607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6696C52F238CD3A000666607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6696C536238E47A200666607 /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		6696C539238E498700666607 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		6696C53D238E5FD300666607 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		6696C53F238E629900666607 /* ResponseSearchPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSearchPeople.swift; sourceTree = "<group>"; };
+		6696C542238E65C300666607 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		6696C544238E670000666607 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6696C547238E688900666607 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		66F758BE238E75F900F74190 /* DetailPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
+		F799246DB5C8E08DBCB772C1 /* Pods-QuestArcsinus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestArcsinus.debug.xcconfig"; path = "Target Support Files/Pods-QuestArcsinus/Pods-QuestArcsinus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6696C51B238CD39B00666607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C2230895BF434FF58A8350 /* Pods_QuestArcsinus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6696C515238CD39B00666607 = {
+			isa = PBXGroup;
+			children = (
+				6696C544238E670000666607 /* Default-568h@2x.png */,
+				6696C520238CD39B00666607 /* QuestArcsinus */,
+				6696C51F238CD39B00666607 /* Products */,
+				81923490B4B0C27DC25B11AC /* Pods */,
+				B1EBD97EE2858DB8754F1F93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6696C51F238CD39B00666607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6696C51E238CD39B00666607 /* QuestArcsinus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6696C520238CD39B00666607 /* QuestArcsinus */ = {
+			isa = PBXGroup;
+			children = (
+				6696C521238CD39B00666607 /* AppDelegate.swift */,
+				6696C523238CD39B00666607 /* SceneDelegate.swift */,
+				6696C535238E478F00666607 /* network */,
+				6696C538238E497D00666607 /* models */,
+				6696C53B238E5FA300666607 /* controllers */,
+				6696C53C238E5FBC00666607 /* view models */,
+				6696C546238E684D00666607 /* views */,
+				6696C541238E65A800666607 /* extensions */,
+				6696C527238CD39B00666607 /* Main.storyboard */,
+				6696C52A238CD3A000666607 /* Assets.xcassets */,
+				6696C52C238CD3A000666607 /* LaunchScreen.storyboard */,
+				6696C52F238CD3A000666607 /* Info.plist */,
+			);
+			path = QuestArcsinus;
+			sourceTree = "<group>";
+		};
+		6696C535238E478F00666607 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				6696C536238E47A200666607 /* HTTPManager.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		6696C538238E497D00666607 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6696C539238E498700666607 /* Person.swift */,
+				6696C53F238E629900666607 /* ResponseSearchPeople.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6696C53B238E5FA300666607 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6696C525238CD39B00666607 /* PersonViewController.swift */,
+				66F758BE238E75F900F74190 /* DetailPersonViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		6696C53C238E5FBC00666607 /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				6696C53D238E5FD300666607 /* PersonViewModel.swift */,
+			);
+			path = "view models";
+			sourceTree = "<group>";
+		};
+		6696C541238E65A800666607 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6696C542238E65C300666607 /* Extension+UIViewController.swift */,
+				6636B72E2394D6100091CE6D /* Extension+Realm.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		6696C546238E684D00666607 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6696C549238E68A400666607 /* cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6696C549238E68A400666607 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				6696C547238E688900666607 /* PersonTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		81923490B4B0C27DC25B11AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F799246DB5C8E08DBCB772C1 /* Pods-QuestArcsinus.debug.xcconfig */,
+				292C5D4DAF971C2B39DD7F9C /* Pods-QuestArcsinus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1EBD97EE2858DB8754F1F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194CCAA54591533EF623D2FB /* Pods_QuestArcsinus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6696C51D238CD39B00666607 /* QuestArcsinus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6696C532238CD3A000666607 /* Build configuration list for PBXNativeTarget "QuestArcsinus" */;
+			buildPhases = (
+				693C9DB1AD91358077ACE1FF /* [CP] Check Pods Manifest.lock */,
+				6696C51A238CD39B00666607 /* Sources */,
+				6696C51B238CD39B00666607 /* Frameworks */,
+				6696C51C238CD39B00666607 /* Resources */,
+				FBEC7FA98AC7D11DB8492568 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuestArcsinus;
+			productName = QuestArcsinus;
+			productReference = 6696C51E238CD39B00666607 /* QuestArcsinus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6696C516238CD39B00666607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Евгений Бейнар";
+				TargetAttributes = {
+					6696C51D238CD39B00666607 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 6696C519238CD39B00666607 /* Build configuration list for PBXProject "QuestArcsinus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6696C515238CD39B00666607;
+			productRefGroup = 6696C51F238CD39B00666607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6696C51D238CD39B00666607 /* QuestArcsinus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6696C51C238CD39B00666607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696C52E238CD3A000666607 /* LaunchScreen.storyboard in Resources */,
+				6696C545238E670000666607 /* Default-568h@2x.png in Resources */,
+				6696C52B238CD3A000666607 /* Assets.xcassets in Resources */,
+				6696C529238CD39B00666607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		693C9DB1AD91358077ACE1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestArcsinus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEC7FA98AC7D11DB8492568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestArcsinus/Pods-QuestArcsinus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestArcsinus/Pods-QuestArcsinus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestArcsinus/Pods-QuestArcsinus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6696C51A238CD39B00666607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F758BF238E75F900F74190 /* DetailPersonViewController.swift in Sources */,
+				6696C543238E65C300666607 /* Extension+UIViewController.swift in Sources */,
+				6696C53A238E498700666607 /* Person.swift in Sources */,
+				6636B72F2394D6100091CE6D /* Extension+Realm.swift in Sources */,
+				6696C526238CD39B00666607 /* PersonViewController.swift in Sources */,
+				6696C548238E688900666607 /* PersonTableViewCell.swift in Sources */,
+				6696C522238CD39B00666607 /* AppDelegate.swift in Sources */,
+				6696C53E238E5FD300666607 /* PersonViewModel.swift in Sources */,
+				6696C524238CD39B00666607 /* SceneDelegate.swift in Sources */,
+				6696C540238E629900666607 /* ResponseSearchPeople.swift in Sources */,
+				6696C537238E47A200666607 /* HTTPManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6696C527238CD39B00666607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6696C528238CD39B00666607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6696C52C238CD3A000666607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6696C52D238CD3A000666607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6696C530238CD3A000666607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6696C531238CD3A000666607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6696C533238CD3A000666607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F799246DB5C8E08DBCB772C1 /* Pods-QuestArcsinus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYFZN9BDLG;
+				INFOPLIST_FILE = QuestArcsinus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuk.QuestArcsinus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6696C534238CD3A000666607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292C5D4DAF971C2B39DD7F9C /* Pods-QuestArcsinus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYFZN9BDLG;
+				INFOPLIST_FILE = QuestArcsinus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuk.QuestArcsinus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6696C519238CD39B00666607 /* Build configuration list for PBXProject "QuestArcsinus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696C530238CD3A000666607 /* Debug */,
+				6696C531238CD3A000666607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6696C532238CD3A000666607 /* Build configuration list for PBXNativeTarget "QuestArcsinus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696C533238CD3A000666607 /* Debug */,
+				6696C534238CD3A000666607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6696C516238CD39B00666607 /* Project object */;
+}
